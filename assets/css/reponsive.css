@@ -1,0 +1,103 @@
+@media(max-width:1023px)
+{
+    .place-body .place-btn{
+        height: 44px;
+    }
+    .contact-content .contact-info{
+        line-height: 2;
+
+    }
+    .contact-form .form-control-name,
+    .contact-form .form-control-email,
+    .contact-form .form-control-mess{
+        padding:12px;
+    }    
+
+    #footer .footer-icons{
+        font-size:44px;             
+
+    }
+    #footer .footer-icons a{
+
+        margin:0px 10px;
+    }
+    #footer .footer-note a{
+        padding:10px 0px;
+        display: inline-block;
+    }
+
+    
+}
+@media(min-width :740px) AND (max-width :1023px)
+{
+  
+}
+@media(max-width : 739px)
+{
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .nav-ti-search
+    {
+        display:none;
+    }
+    #header .moblie-menu-btn{
+        display:block;
+    }
+    #nav,#nav li,
+    #nav li a {
+        display:block;
+    }  
+    #nav >li:first-child{
+        display:inline-block;
+    }
+    #nav li .subnav{
+        position:initial;
+    }
+    #nav li .subnav li{
+        
+        background-color: #333;
+    }
+    .subnav li a{
+        color: #fff;
+       padding: 12px 40px;
+    }
+    #content .member .member-item{
+        margin-top:30px;
+        width:100%;
+    }
+    #content .member .image{
+    
+        width:60%;
+
+    }
+    .places-list{
+        width:99.6%;
+    }
+    .places-list .place-item{
+        width:100%;
+        margin-bottom:16px;
+    }
+    .place-item .place-btn
+    {
+        width:100%;
+    }
+    .contact-content .contact-info{
+        margin:15px 0px;
+    }
+    #contact .contact-content div{
+        width:100%;
+    }
+    .contact-content .contact-form{
+        margin-top : 16px;
+        margin-bottom:54px; 
+    }
+    
+    .contact-form .form-control-email,.contact-form .form-control-name,
+    .contact-form .form-control-sendbtn{
+        width:100%;
+    } 
+    
+   
+}
